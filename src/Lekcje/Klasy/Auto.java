@@ -8,8 +8,8 @@ public class Auto {
     // pola klasy
     public String marka;
     public String model;
-    public int rokProdukcji;
-    public int przebieg;
+    public Integer rokProdukcji;
+    public Integer przebieg;
 
     // metody klasy
     public void jedz() {
