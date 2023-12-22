@@ -1,3 +1,5 @@
+package Lekcje;
+
 // umożliwiają wykonywanie podstawowych operacji matematycznych
 public class OperatoryMatematyczne {
 

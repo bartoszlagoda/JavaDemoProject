@@ -1,3 +1,5 @@
+package Lekcje;
+
 public class InkrementacjaIDekrementacja {
     public static void main(String[] args) {
         // inkrementacja to zwiekszenie wartosci o jeden

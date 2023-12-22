@@ -1,3 +1,5 @@
+package Lekcje;
+
 public class TypyObiektoweDanych {
     public static void main(String[] args) {
 

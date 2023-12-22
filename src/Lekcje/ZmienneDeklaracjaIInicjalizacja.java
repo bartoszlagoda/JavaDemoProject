@@ -1,3 +1,5 @@
+package Lekcje;
+
 public class ZmienneDeklaracjaIInicjalizacja {
 
     // zmienne to zarezerwowane miejsce w pamięci z określonym typem danych

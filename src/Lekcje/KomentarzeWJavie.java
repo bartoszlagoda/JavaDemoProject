@@ -1,3 +1,5 @@
+package Lekcje;
+
 public class KomentarzeWJavie {
     //    // komentarz jednolinijkowy w Javie
 //    // metoda main - główna metoda, w każdej aplikacji, która jest wykonywana podczas uruchomienia aplikacji

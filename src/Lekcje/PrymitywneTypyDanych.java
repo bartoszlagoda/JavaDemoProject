@@ -1,3 +1,5 @@
+package Lekcje;
+
 public class PrymitywneTypyDanych {
 
     // liczy stałoprzecinkowe
