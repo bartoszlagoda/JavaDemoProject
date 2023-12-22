@@ -4,9 +4,9 @@ package Zadania;
 public class Z3LoopsCheck {
     public static void main(String[] args) {
         System.out.println("Wypisanie liczb podzielnych przez 3 od 0 do 100:");
-        for (int i = 0; i < 100; i++) {
+        for (int i = 1; i < 100; i++) {
             if (i % 3 == 0) {
-                System.out.println(i);
+                System.out.println("Liczba podzielna przez 3: " + i);
             }
         }
         int[] numbers = new int[]{1,3,5};
