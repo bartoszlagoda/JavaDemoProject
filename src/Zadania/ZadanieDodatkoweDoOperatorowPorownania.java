@@ -13,11 +13,11 @@ public class ZadanieDodatkoweDoOperatorowPorownania {
         System.out.println("Na podanych przez Ciebie liczbach zostaly wykonane podstawowe operacje logiczne." +
                 "\nOto wyniki: ");
 
-        System.out.println(firstNumber == secondNumber);
-        System.out.println(firstNumber != secondNumber);
-        System.out.println(firstNumber > secondNumber);
-        System.out.println(firstNumber < secondNumber);
-        System.out.println(firstNumber >= secondNumber);
-        System.out.println(firstNumber <= secondNumber);
+        System.out.println(firstNumber + " == " + secondNumber + " : " + (firstNumber == secondNumber));
+        System.out.println(firstNumber + " != " + secondNumber + " : " + (firstNumber != secondNumber));
+        System.out.println(firstNumber + " > " + secondNumber + " : " + (firstNumber > secondNumber));
+        System.out.println(firstNumber + " < " + secondNumber + " : " + (firstNumber < secondNumber));
+        System.out.println(firstNumber + " >= " + secondNumber + " : " + (firstNumber >= secondNumber));
+        System.out.println(firstNumber + " <= " + secondNumber + " : " + (firstNumber <= secondNumber));
     }
 }
