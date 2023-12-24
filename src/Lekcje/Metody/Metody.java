@@ -12,4 +12,16 @@ public class Metody {
         }
         System.out.println("Rezultat to: " + result);
     }
+
+    public int pobierzWynik() {
+        System.out.println("Zaraz policze wynik");
+        int result = 0;
+        for (int i = 0; i < 100; i++) {
+            result = result + i;
+        }
+        System.out.println("Rezultat to: " + result);
+        // wywoławcze typy metod wymagaja slowa kluczowego return
+        // pozwala ono na zwrocenie wartosci z metody (zgodnej z zadeklarowanym typem metody)
+        return result;
+    }
 }
