@@ -12,6 +12,7 @@ public class StudentTest {
         student1.email = "jan.kowalski@student.uczelnia.pl";
         student1.nick = "jan.kowalski";
         student1.numerIndeksu = 311212;
+        String uczelniaStudent1 = Student.nazwaUczelni; // wywołanie statycznego pola
 
         Student student2 = new Student();
         student2.imie = "Janusz";
@@ -31,6 +32,7 @@ public class StudentTest {
 
         for (int i = 0; i < studenci.length; i++) {
             System.out.println("Dane studenta nr " + (i + 1));
+            Student.infoUczelnia(); // nie ma potrzeby wywoływania obiektu klasy, wywołujemy klasę
             studenci[i].przedstawSie();
             studenci[i].podajNrIndeksu();
             studenci[i].podajEmail();
