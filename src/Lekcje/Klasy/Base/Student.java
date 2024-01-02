@@ -1,4 +1,4 @@
-package Lekcje.Klasy;
+package Lekcje.Klasy.Base;
 
 public class Student {
 

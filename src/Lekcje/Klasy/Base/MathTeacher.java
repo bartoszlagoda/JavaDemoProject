@@ -1,4 +1,5 @@
-package Lekcje.Klasy;
+package Lekcje.Klasy.Base;
+
 // klasa rozszerzająca klasę Person
 public class MathTeacher extends Person {
 

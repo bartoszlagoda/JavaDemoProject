@@ -1,7 +1,7 @@
 package Lekcje.Klasy.Test;
 
-import Lekcje.Klasy.Footballer;
-import Lekcje.Klasy.MathTeacher;
+import Lekcje.Klasy.Base.Footballer;
+import Lekcje.Klasy.Base.MathTeacher;
 
 public class PersonTest {
     public static void main(String[] args) {

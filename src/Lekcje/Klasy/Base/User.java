@@ -1,4 +1,4 @@
-package Lekcje.Klasy;
+package Lekcje.Klasy.Base;
 
 public class User {
     public String username;

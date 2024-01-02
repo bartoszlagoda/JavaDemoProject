@@ -1,6 +1,6 @@
 package Lekcje.Klasy.Test;
 
-import Lekcje.Klasy.User;
+import Lekcje.Klasy.Base.User;
 
 public class UserTest {
     public static void main(String[] args) {

@@ -1,6 +1,7 @@
-package Lekcje.Klasy;
+package Lekcje.Klasy.Base;
+
 // Klasa dziedzicząca po klasie Person
-public class Footballer extends Person{
+public class Footballer extends Person {
 
     public String footballClub;
 
