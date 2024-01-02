@@ -1,4 +1,4 @@
-package Lekcje.Klasy;
+package Lekcje.Klasy.Base;
 // Klasa jest szablonem, na podstawie którego można tworzyć obiekty
 // Obiekt jest przedstawicielem danej klasy
 // Klasa może zawierać w sobie pola (np. marka, model, rok produkcji i przebieg dla auta)

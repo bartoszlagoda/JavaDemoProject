@@ -1,6 +1,7 @@
-package Lekcje.Klasy;
+package Lekcje.Klasy.Base;
+
 // Klasa dziedzicząca po klasie Person
-public class Footballer extends Person{
+public class Footballer extends Person {
 
     public String footballClub;
 
@@ -9,6 +10,11 @@ public class Footballer extends Person{
         super(name, age); // musi być pierwsze
         System.out.println("Uruchamiam konstruktor Footballer");
         this.footballClub = footballClub;
+    }
+
+    // nadpisanie tej samej metody w klasie rodzica Person
+    public void eat(){
+        System.out.println("I like healthy food !");
     }
 
     public void playFootball(){

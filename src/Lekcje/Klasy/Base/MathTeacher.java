@@ -1,4 +1,5 @@
-package Lekcje.Klasy;
+package Lekcje.Klasy.Base;
+
 // klasa rozszerzająca klasę Person
 public class MathTeacher extends Person {
 
@@ -9,6 +10,11 @@ public class MathTeacher extends Person {
         super(name, age); // musi być pierwsze
         System.out.println("Uruchamiam konstruktor MathTeacher");
         this.school = school;
+    }
+    // nadpisanie metody z klasy Person
+    public void walk(){
+        super.walk(); // wywolanie metody walk z klasy Person
+        System.out.println("I walk very fast");
     }
 
     public void teachMath(){

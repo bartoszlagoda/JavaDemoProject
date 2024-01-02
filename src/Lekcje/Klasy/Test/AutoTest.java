@@ -1,6 +1,6 @@
 package Lekcje.Klasy.Test;
 
-import Lekcje.Klasy.Auto;
+import Lekcje.Klasy.Base.Auto;
 // klasa testowa dla klasy Auto
 public class AutoTest {
     public static void main(String[] args) {

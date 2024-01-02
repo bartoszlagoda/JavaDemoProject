@@ -1,4 +1,4 @@
-package Lekcje.Klasy;
+package Lekcje.Klasy.Base;
 // Klasa bazowa lekcji o dziedziczeniu
 public class Person {
     public String name;

@@ -1,6 +1,6 @@
 package Lekcje.Klasy.Test;
 
-import Lekcje.Klasy.Student;
+import Lekcje.Klasy.Base.Student;
 
 // Stworz 3 obiekty klasy Student. Przypisz wartosci do pol. Stworz tablice i dodaj studentow do tablicy.
 // Przejdz przez studentow w tablicy. Wywolaj wszystkie cztery metody.
