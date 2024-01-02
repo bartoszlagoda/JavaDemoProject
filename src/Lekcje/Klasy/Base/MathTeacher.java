@@ -13,6 +13,7 @@ public class MathTeacher extends Person {
     }
     // nadpisanie metody z klasy Person
     public void walk(){
+        super.walk(); // wywolanie metody walk z klasy Person
         System.out.println("I walk very fast");
     }
 
