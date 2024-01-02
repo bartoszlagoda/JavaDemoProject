@@ -11,6 +11,11 @@ public class Footballer extends Person{
         this.footballClub = footballClub;
     }
 
+    // nadpisanie tej samej metody w klasie rodzica Person
+    public void eat(){
+        System.out.println("I like healthy food !");
+    }
+
     public void playFootball(){
 //        eat(); // metody klasy bazowej
 //        walk(); // metody klasy bazowej

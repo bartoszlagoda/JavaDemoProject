@@ -10,6 +10,10 @@ public class MathTeacher extends Person {
         System.out.println("Uruchamiam konstruktor MathTeacher");
         this.school = school;
     }
+    // nadpisanie metody z klasy Person
+    public void walk(){
+        System.out.println("I walk very fast");
+    }
 
     public void teachMath(){
 //        eat(); // metody klasy bazowej
