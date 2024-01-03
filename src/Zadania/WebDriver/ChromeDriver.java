@@ -1,6 +1,6 @@
 package Zadania.WebDriver;
 
-public class ChromeDrier implements WebDriver{
+public class ChromeDriver implements WebDriver{
     @Override
     public String get() {
         return "Biore element w przegladarce Chrome";
