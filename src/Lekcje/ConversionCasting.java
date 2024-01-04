@@ -1,7 +1,7 @@
 package Lekcje;
 
-import Zadania.WebDriver.FirefoxDriver;
-import Zadania.WebDriver.WebDriver;
+import Zadania.drivers.FirefoxDriver;
+import Zadania.drivers.WebDriver;
 
 public class ConversionCasting {
     public static void main(String[] args) {
