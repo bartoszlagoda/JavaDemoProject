@@ -2,7 +2,7 @@ package Zadania.drivers;
 
 
 public class WebDriverTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NoValidBrowserName{
 //        ChromeDriver chrome = new ChromeDriver();
         WebDriver driver = getDriver("Chrome");
         String chromeGet = driver.get();
@@ -20,12 +20,12 @@ public class WebDriverTest {
         System.out.println(firefoxFindElementBy);
     }
 
-    private static WebDriver getDriver(String driverName) {
+    private static WebDriver getDriver(String driverName) throws NoValidBrowserName {
         if (driverName.equals("chrome")) {
             return new ChromeDriver();
         } else if (driverName.equals("firefox")) {
             return new FirefoxDriver();
         }
-        return null;
+        throw new NoValidBrowserName("No valid browser name");
     }
 }
