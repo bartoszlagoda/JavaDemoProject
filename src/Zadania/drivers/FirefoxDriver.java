@@ -1,4 +1,4 @@
-package Zadania.WebDriver;
+package Zadania.drivers;
 
 public class FirefoxDriver implements WebDriver{
     @Override

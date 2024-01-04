@@ -1,4 +1,4 @@
-package Zadania.WebDriver;
+package Zadania.drivers;
 
 public interface WebDriver {
     String get();
