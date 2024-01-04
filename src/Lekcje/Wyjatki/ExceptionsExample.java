@@ -1,4 +1,4 @@
-package Lekcje;
+package Lekcje.Wyjatki;
 
 import Zadania.drivers.ChromeDriver;
 import Zadania.drivers.FirefoxDriver;
