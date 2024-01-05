@@ -4,5 +4,5 @@ package Lekcje.Lambda;
 public interface Student {
 
     // jedyna mozliwa metoda w takim interfejsie
-    void sayHello(String name);
+    void sayHello(String name, int age);
 }
