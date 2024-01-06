@@ -1,4 +1,4 @@
-package Lekcje;
+package Lekcje.Kolekcje;
 // Struktury, które pozwalają nam gromadzić większą ilość danych
 public class Tablice {
     public static void main(String[] args) {

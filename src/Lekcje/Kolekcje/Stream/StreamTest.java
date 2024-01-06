@@ -1,4 +1,4 @@
-package Lekcje.Stream;
+package Lekcje.Kolekcje.Stream;
 
 import java.util.Arrays;
 import java.util.List;
